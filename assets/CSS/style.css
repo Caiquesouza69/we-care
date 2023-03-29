@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.cabecalho {
+    margin-left: 76px;
+    margin-top: 44px;
+    margin-bottom: 144px;
+}
+
+.cabecalho-menu-link {
+    margin-right: 23px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.cabecalho-menu-botao {
+    background: #665AE1;
+    border-radius: 20.5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    width: 130px;
+    height: 41px;
+}
+
+.conteudo-principal {
+    display: flex;
+    align-items: center;
+    margin-right: 125px;
+    gap: 86px;
+}
+
+
+.conteudo-principal-textos-titlo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+.conteudo-principal-textos-titlo-secundario {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+.conteudo-principal-textos-paragrafo {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    width: 515px;
+    margin-top: 32px;
+    margin-bottom: 65px;
+}
+
+.conteudo-principal-textos-botao {
+    background: #ADFF00;
+    border-radius: 30px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    width: 239px;
+    height: 64px;
+}
+
+.conteudo-principal-textos-botao:hover{
+    background-color: #aeff008d;
+}
+
+.cabecalho-menu-link:hover{
+    color: #7d8180;
+    transition: 0.5s;
+    opacity: 1.5;
+}
+
+.cabecalho-menu-botao:hover{
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px
+}
